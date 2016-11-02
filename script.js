@@ -24,7 +24,7 @@ function convertTemp(temp,units) {
 	} else if (units==="F"||units==="f") {
 		console.log(temp+" degrees C is "+(temp*(9/5)+32)+" degrees F");
 		return temp*(9/5)+32;
-	} else {http://jsbin.com/yofameniqe/edit?js,console
+	} else {
 		console.log("Valid parameters for units are only F or C.");
 	}
 }
